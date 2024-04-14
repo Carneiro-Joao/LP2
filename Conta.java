@@ -45,6 +45,10 @@ public class Conta {
         }
     }
 
+    public String getNome() {
+        return nome;
+    }
+
     public long getCPF() {
         return CPF;
     }
